@@ -20,26 +20,8 @@ Vite will print the local URL in the terminal, normally `http://localhost:5173`.
 - `src/App.tsx` — portfolio sections, project data, skills, and links.
 - `src/components/ui/profile-card-1.tsx` — reusable glassmorphism profile card.
 - `src/index.css` — global theme, effects, and responsive styling.
-- `public/naman-profile.jpg` — profile picture.
+- `public/naman-profile.jpg` — profile picture
 
-## Update the content
+Deployment websites 
 
-Edit the arrays near the top of `src/App.tsx` to change skills or projects. Update the profile text and social links in `src/components/ui/profile-card-1.tsx`.
-
-## Deploy on Vercel
-
-1. Create a GitHub repository and push this folder to it.
-2. Sign in to [Vercel](https://vercel.com/) and select **Add New → Project**.
-3. Import the GitHub repository.
-4. Vercel should detect **Vite** automatically.
-5. Use `npm run build` as the build command and `dist` as the output directory if Vercel does not fill them automatically.
-6. Select **Deploy**.
-
-After deployment, open **Project Settings → Domains** in Vercel to connect a custom domain.
-
-## Production build
-
-```bash
-npm run build
-npm run preview
-```
+https://naman-portfolio-lemon.vercel.app/
